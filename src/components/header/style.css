@@ -1,0 +1,56 @@
+.headerMenu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuBrand{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menuBrand img{
+    width: 60px;
+    height: 60px;
+}
+
+.menuBar{
+    padding-right: 30px;
+}
+
+.menuBar a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #111;
+}
+
+
+
+
+.headerSearchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    height: 80px;
+}
+
+.searchBarInput{
+    padding-left: 60px;
+}
+.searchBarInput input{
+    border: none;
+    height: 25px;
+}
+
+.searchBarButton{
+    padding-right: 60px;
+}
+.searchBarButton button{
+    margin-left: 20px;
+    border: none;
+    border-radius: 10%;
+    height: 25px;
+}

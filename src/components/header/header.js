@@ -1,6 +1,6 @@
 import './style.css'
 import logo from '../../assets/logo.png'
-import cart from '../../assets/cart.png'
+import Cart from '../cart/cart'
 
 const Header = () => {
 
@@ -23,9 +23,7 @@ const Header = () => {
                     <button>Login</button>
                     <button>Registrarse</button>
                 </div>
-                <div className='carrito'>
-                    <img src={cart} alt='cart' />
-                </div>
+                <Cart />
                 <div className='searchBarInput'>
                     <input type='search' placeholder='Buscar...' />
                 </div>

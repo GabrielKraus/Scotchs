@@ -1,0 +1,21 @@
+.carrito{
+    position: relative;
+}
+
+.carrito img{
+    width: 40px;
+    height: 40px;
+}
+
+.cartNumber{
+    position: absolute;
+    background-color: #fff;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    top: -17px;
+    right: -10px;
+}

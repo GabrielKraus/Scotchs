@@ -1,8 +1,8 @@
 import './style.css'
 import logo from '../../assets/logo.png'
-import Cart from '../cart/cart'
+import Cart from '../cart/cartLogo/cart'
 
-const Header = () => {
+const Header = (props) => {
 
     return (
         <div className="header">

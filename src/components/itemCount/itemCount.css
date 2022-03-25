@@ -1,0 +1,19 @@
+.product{
+    width: min-content;
+    padding: 30px; 
+}
+.product h3{
+    display: flex;
+    justify-content: center;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter button{
+    margin: 10px;
+    height: 25px;
+    display: flex;
+}

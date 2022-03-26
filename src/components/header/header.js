@@ -23,7 +23,7 @@ const Header = (props) => {
                     <button>Login</button>
                     <button>Registrarse</button>
                 </div>
-                <Cart />
+                <Cart numero={props.cartNumber}/>
                 <div className='searchBarInput'>
                     <input type='search' placeholder='Buscar...' />
                 </div>

@@ -4,6 +4,7 @@ import Header from "../header/header";
 
 
 class ItemCount extends Component {
+    stock = 10;
     constructor(props) {
         super(props);
         this.state = {
@@ -12,10 +13,14 @@ class ItemCount extends Component {
         }
     }
     increment = () => {
-        this.setState({ count: this.state.count + 1 })
+        if(this.state.count < this.stock){
+            this.setState({ count: this.state.count + 1 })
+        }
     }
     decrement = () => {
-        this.setState({ count: this.state.count - 1 })
+        if(this.state.count > 0){
+            this.setState({ count: this.state.count - 1 })
+        }
     }
     addBtn = () => {
         this.setState({count2: this.state.count})

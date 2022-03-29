@@ -49,8 +49,11 @@
 
 .searchBarButton{
     padding-left: 60px;
+    
 }
 .searchBarButton button{
+    cursor: pointer;
+    padding: 5px;
     margin-left: 20px;
     border: none;
     border-radius: 10%;

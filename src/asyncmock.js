@@ -8,7 +8,7 @@ const products = [
         price: 6280,
         img: "https://http2.mlstatic.com/D_NQ_NP_789859-MLA44850220471_022021-V.webp",
         category: "WHISKY",
-        stock: 20
+        stock: 6
     },{
         id: 2,
         brand: "Jack Daniel's",

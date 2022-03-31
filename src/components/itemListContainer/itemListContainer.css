@@ -44,3 +44,15 @@
     border: none;
     background-color: rgb(0, 0, 0);
 }
+
+.counter{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter img{
+    width: 20px;
+    height: 20px;
+}

@@ -8,6 +8,7 @@ const Item = (props) =>{
 
     const increment = (stock) => {productCounter<stock ? setProductCouner(productCounter + 1) : setProductCouner(productCounter) }
     const decrement =() => {productCounter>0 ? setProductCouner(productCounter - 1) : setProductCouner(productCounter) }
+    const buyButton = () => {setProductCouner(0)}
 
     return(
         <li className="productContainer">
@@ -23,7 +24,7 @@ const Item = (props) =>{
                 <img src={Plus} alt="Plus" onClick={() => increment(props.stock)}/>
                 </div>
             </div>
-            <button id="buyButton">Comprar</button>
+            <button id="buyButton" onClick={buyButton}>Comprar</button>
         </li>
     )
 }

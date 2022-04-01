@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.itemList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
 .productContainer{
     display: inline-flex;
     flex-direction: column;

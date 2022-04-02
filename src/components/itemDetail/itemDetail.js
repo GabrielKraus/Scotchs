@@ -20,7 +20,7 @@ const ItemDetails = (props) => {
                     <p className="disabled">Origen: {product.country}</p>
                     <p className="disabled">Cantidad: {product.volume}</p>
                 </div>
-                <h2 className="price"> Precio: {product.price}</h2>
+                <h2 className="price"> Precio: ${product.price}</h2>
             </div>
         </div >
 

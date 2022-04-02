@@ -1,8 +1,4 @@
 import "./itemDetail.css"
-import logo from "../../assets/logo.png"
-
-import React, { useState, useEffect } from "react"
-
 
 const ItemDetails = (props) => {
 
@@ -10,24 +6,11 @@ const ItemDetails = (props) => {
 
 
 
-    // Pantalla de Carga
-    const [loading, setLoading] = useState(false)
-    useEffect(() => {
-        setLoading(true)
-        setTimeout(() => {
-            setLoading(false)
-        }, 3000)
-    }, [])
 
 
     return (
 
         <div>
-            {loading ? 
-            <div className="carga">
-                <img src={logo} alt="cargando" />
-            </div>
-            :
             <div div className="detailContainer" >
                 <img src={product.img} alt="productImg" />
                 <div className="infoContainer">
@@ -42,7 +25,7 @@ const ItemDetails = (props) => {
                     </div>
                     <h2 className="price"> Precio: ${product.price}</h2>
                 </div>
-            </div >}
+            </div >
         </div>
 
 

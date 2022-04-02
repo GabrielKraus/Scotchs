@@ -1,4 +1,5 @@
 import Item from "../item/item";
+import "./itemList.css"
 
 const ItemList = (props) => {
     return(

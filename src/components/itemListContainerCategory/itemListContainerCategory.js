@@ -1,18 +1,20 @@
-import { getProducts } from "../../asyncmock"
+import { getProductByCat } from "../../asyncmock"
 import React from "react"
 import { useState, useEffect } from "react"
 import ItemList from "../itemList/itemList"
+import { useParams } from 'react-router-dom'
 
 
-const ItemListContainer = () =>{
+const ItemListContainerCategory = () =>{
 
     const[products, setProducts] = useState([])
+    const { category } = useParams()
 
     useEffect(()=>{
-        getProducts().then(response => {
+        getProductByCat(category).then(response => {
             setProducts(response)
         })
-    },[])
+    },[category])
 
 
     return(
@@ -20,4 +22,4 @@ const ItemListContainer = () =>{
     )
 }
 
-export default ItemListContainer
+export default ItemListContainerCategory

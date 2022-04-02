@@ -28,3 +28,26 @@
     opacity: 50%;
 }
 
+.carga{
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+.carga img{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: loadingAnimation 4s infinite;
+}
+
+@keyframes loadingAnimation {
+    0% {width: 200px; height: 200px;}
+    50% {width: 250px; height: 250px;}
+    80% {width: 200px; height: 200px;}
+    100% {width: 250px; height: 250px;}
+}

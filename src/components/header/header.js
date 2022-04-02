@@ -1,6 +1,7 @@
 import './style.css'
 import logo from '../../assets/logo.png'
 import Cart from '../cart/cart'
+import  {Link } from "react-router-dom"
 
 const Header = () => {
 
@@ -12,10 +13,10 @@ const Header = () => {
                     <h1>Scotch's</h1>
                 </div>
                 <div className='menuBar'>
-                    <a href='#'>Inicio</a>
-                    <a href='#'>Productos</a>
-                    <a href='#'>Sobre Nosotros</a>
-                    <a href='#'>Contacto</a>
+                    <Link className='link' to='/'>Inicio</Link>
+                    <Link className='link' to='/productos'>Productos</Link>
+                    <Link className='link' to='/sobrenosotros'>Nosotros</Link>
+                    <Link className='link' to='/contacto'>Contacto</Link>
                 </div>
             </div>
             <div className="headerSearchBar">

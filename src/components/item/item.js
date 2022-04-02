@@ -1,6 +1,8 @@
 import Minus from "../../assets/minus.png"
 import Plus from "../../assets/plus.png"
 import React from "react";
+import {Link} from "react-router-dom"
+
 
 const Item = (props) =>{
 
@@ -17,7 +19,7 @@ const Item = (props) =>{
                 <p id="brand">{props.brand}</p>
                 <p>{props.name}</p>
                 <h3>{`$${props.price}`}</h3>
-                <button>Ver Detalles</button>
+                <Link className="detalles" to={`/productos/item/${props.id}`}>Ver Detalles</Link>
                 <div className="counter">
                 <img src={Minus} alt="Minus" onClick={decrement}/>
                 <p>{productCounter}</p>

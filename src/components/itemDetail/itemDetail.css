@@ -1,0 +1,30 @@
+.detailContainer{
+    padding: 50px;
+    display: flex;
+}
+.detailContainer img{
+    width: 400px;
+    height: 400px;
+}
+.infoContainer{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name {
+    font-size: 40px;
+}
+.name span{
+    font-weight: lighter;
+}
+
+.price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.disabled{
+    opacity: 50%;
+}
+

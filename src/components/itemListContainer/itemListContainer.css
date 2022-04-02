@@ -31,13 +31,15 @@
 }
 
 
-.producto button {
+.producto .detalles {
     background-color: #fff;
     cursor: pointer;
     position: absolute;
     right: 5px;
     top: 2px;
     border: none;
+    text-decoration: none;
+    color: #111;
 }
 
 .productContainer #buyButton{

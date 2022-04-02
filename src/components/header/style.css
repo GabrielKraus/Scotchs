@@ -20,7 +20,7 @@
     padding-right: 30px;
 }
 
-.menuBar a{
+.menuBar .link{
     margin-right: 15px;
     text-decoration: none;
     color: #111;

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.contacto{
+    height: 100vh;
+    background-image: url("../../assets/ContactBack.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.contactForm{
+    position: absolute;
+    background: rgba(17, 17, 17, 0.741);
+    width: 35%;
+    height: 75%;
+    top: 50px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FormItems{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.labelItem{
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    margin-top: 15px;
+}
+
+.inputItem{
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(221, 255, 0);
+    height: 30px;
+    padding-left: 10px;
+}
+
+.FormItems textarea{
+    height: 150px;
+    resize: none;
+}
+
+#submitButton{
+    margin-top: 40px;
+    width: 70%;
+    align-self: center;
+    height: 30px;
+    border: none;
+    background-color: rgb(221, 255, 0);
+    cursor: pointer;
+    font-family: 'Caveat', cursive;
+    font-size: 1.4rem;
+    font-weight: bold;
+}

@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <div className="header">
             <div className="headerMenu">
-                <div className='menuBrand'>
+                <Link to='/' className='menuBrand'>
                     <img src={logo} alt='logo' />
                     <h1>Scotch's</h1>
-                </div>
+                </Link>
                 <div className='menuBar'>
                     <Link className='link' to='/'>Inicio</Link>
                     <Link className='link' to='/productos'>Productos</Link>

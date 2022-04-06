@@ -11,7 +11,7 @@
 .opcionesProductos{
     grid-area: productos;
     background: rgba(0, 0, 0, 0.513);
-    background-image: url("https://breakfastimenc.com/wp-content/uploads/2020/11/background-tree-wood-boards-texture-wooden-background-1370489-pxhere.com-1.jpg");
+    background-image: url("https://m.media-amazon.com/images/I/61+mMh4rOuL._AC_SX355_.jpg");
 }
 
 .opcionesBebidas{
@@ -38,3 +38,9 @@
     opacity: .8;
     transition: all 1s;
 }
+
+
+
+/* .inicioDestacados{
+    
+} */

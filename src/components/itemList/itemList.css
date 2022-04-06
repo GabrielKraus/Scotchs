@@ -35,7 +35,7 @@
 
 
 .producto .detalles {
-    background-color: #fff;
+    background:none;
     cursor: pointer;
     position: absolute;
     right: 5px;

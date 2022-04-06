@@ -1,5 +1,6 @@
 import "./inicio.css"
 import  {Link } from "react-router-dom"
+import SlideShow from "../slideshow/slideshow"
 const Inicio = () =>{
     return(
         <div className="inicio">
@@ -15,7 +16,7 @@ const Inicio = () =>{
                 </Link>
             </div>
             <div className="inicioDestacados">
-
+                <SlideShow />
             </div>
         </div>
     )

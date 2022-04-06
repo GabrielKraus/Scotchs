@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slideShow{
+    overflow: hidden;
+    position: relative;
+}
+
+
+.slideShowProduct{
+    min-width: 100%;
+    display: flex;
+    width: 70%;
+    padding: 20px;
+    color: #fff;
+    background-image: url("https://breakfastimenc.com/wp-content/uploads/2020/11/background-tree-wood-boards-texture-wooden-background-1370489-pxhere.com-1.jpg");
+    background-size: cover;
+    overflow: hidden;
+    transition: .3s ease all;
+    z-index: 100;
+    
+}
+
+
+
+
+
+.slideShowProductImagen{
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.slideShowInfo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+.slideShowInfoNombre{
+    display: flex;
+    font-size: 2rem;
+}
+.slideShowInfoNombreBrand{
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+.slideShowInfoPrice{
+    font-size: 1.5rem;
+}
+
+.slideShowLink{
+    align-self: flex-start;
+    text-decoration: none;
+}
+
+.slideShowInfoButton{
+    cursor: pointer;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.slideShowControls{
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+    
+}
+
+.slideShowControlsLeft{
+    margin-left: 20px;
+}
+.slideShowControlsRight{
+    margin-right: 20px;
+}
+
+.slideShowControlsButton{
+    pointer-events: all;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}

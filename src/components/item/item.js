@@ -1,13 +1,10 @@
-import Minus from "../../assets/minus.png"
-import Plus from "../../assets/plus.png"
 import React from "react";
 import { Link } from "react-router-dom"
 
 
 
-const Item = (props) => {
 
-    
+const Item = (props) => {
 
     return (
 

@@ -28,3 +28,17 @@
     opacity: 50%;
 }
 
+.goToCartButton{
+    width: 20%;
+    background-color: #111;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    text-decoration: none;
+}
+

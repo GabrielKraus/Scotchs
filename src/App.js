@@ -22,6 +22,7 @@ function App() {
               <Route path="/productos/categoria/:category" element={<ItemListContainerCategory />} />
               <Route path="/sobrenosotros" element={<SobreNosotros />} />
               <Route path="/contacto" element={<Contacto />} />
+              <Route path="/cart" element={null} />
             </Routes>
           </BrowserRouter>
       

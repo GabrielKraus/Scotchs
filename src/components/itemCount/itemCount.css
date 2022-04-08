@@ -1,0 +1,14 @@
+.counter{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.counter img{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.counter p {
+    margin: 0 15px 0 15px;
+}

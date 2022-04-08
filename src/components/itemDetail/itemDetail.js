@@ -1,10 +1,9 @@
 import "./itemDetail.css"
+import ItemCount from "../itemCount/itemCount";
 
 const ItemDetails = (props) => {
 
     const product = props.products
-
-
 
 
 
@@ -13,8 +12,10 @@ const ItemDetails = (props) => {
         <div>
             <div div className="detailContainer" >
                 <img src={product.img} alt="productImg" />
+                
                 <div className="infoContainer">
                     <h3 className="name">{product.brand} <span>{product.name}</span></h3>
+                    <ItemCount stock={product.stock}/>
                     <div className="descContainer">
                         <h3>Descripción:</h3>
                         <p>{product.desc}</p>

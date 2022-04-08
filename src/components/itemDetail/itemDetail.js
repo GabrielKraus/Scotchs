@@ -14,7 +14,7 @@ const ItemDetails = ({id, brand, name, country, volume, price, img, category, st
 
     const onAdd = (count) => {
         setCantidad(count)
-        addItem({id, brand, name, price}, count)
+        addItem({id, brand, name, price, stock}, count)
     }
 
 

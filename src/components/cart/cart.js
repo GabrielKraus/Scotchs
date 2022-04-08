@@ -1,11 +1,16 @@
 import './cart.css'
-import cart from '../../assets/cart.png'
+import cartImg from '../../assets/cart.png'
+import { Link } from "react-router-dom"
 
 const Cart = () => {
 
+
+
+
     return (
         <div className='carrito'>
-            <img src={cart} alt='cart' />
+            <Link to={"/cart"}><img src={cartImg} alt='cart' /></Link>
+            <p className='carritoCount'>3</p>
         </div>
     )
 }

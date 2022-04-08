@@ -4,7 +4,7 @@ import React from "react";
 import "./itemCount.css"
 
 const ItemCount = (props) => {
-    const [productCounter, setProductCouner] = React.useState(0);
+    const [productCounter, setProductCouner] = React.useState(1);
 
     const increment = (stock) => { productCounter < stock ? setProductCouner(productCounter + 1) : setProductCouner(productCounter) }
     const decrement = () => { productCounter > 0 ? setProductCouner(productCounter - 1) : setProductCouner(productCounter) }

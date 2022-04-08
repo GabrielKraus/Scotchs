@@ -1,5 +1,22 @@
+.carrito{
+    position: relative;
+}
 .carrito img{
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+
+.carritoCount{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    top: -3px;
+    right: -10px;
 }

@@ -19,7 +19,7 @@ const Cart = () => {
             </div> :
             <div className='cartView'>
                 <div className='cartProductList'>
-                    {cart.map(product => <div className='cartProduct'>
+                    {cart.map(product => <div key={product.id} className='cartProduct'>
                         <img className='productImg' src={product.img} alt="productImg" />
                         <div className='cartProductInfo'>
                             <div className='cartProductName'>

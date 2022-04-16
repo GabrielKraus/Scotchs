@@ -34,16 +34,7 @@
 }
 
 
-.producto .detalles {
-    background:none;
-    cursor: pointer;
-    position: absolute;
-    right: 5px;
-    top: 2px;
-    border: none;
-    text-decoration: none;
-    color: #111;
-}
+
 
 .productContainer #buyButton{
     cursor: pointer;
@@ -53,17 +44,10 @@
     border-radius: 15px;
     border: none;
     background-color: rgb(255, 255, 255);
-}
-
-.counter{
+    text-decoration: none;
     display: flex;
-    width: 80%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    color: #111;
 }
 
-.counter img{
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-}

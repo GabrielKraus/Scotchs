@@ -252,7 +252,7 @@ const products = [
         destacado: false,
         desc: "Johnnie Walker 200th Black Label Edición Limitada es dulzura envuelta en humo: la fruta más dulce se une al cremoso caramelo para acabar en un ahumado crepitante."
     },{
-        id: 18,
+        id: 19,
         brand: "Aberlour",
         name: "12 años",
         country: "Escocia",
@@ -266,7 +266,7 @@ const products = [
         destacado: false,
         desc: "Notas de cata: Nariz: Tostada de canela con manteca, pasas concentradas en el fondo, toques astringentes de madera, cereza glaseada, carbón de barril. Paladar: Gran golpe de manteca dulce, con jarabe de arce, azúcar morena, pasas rellenas, nuez moscada, chocolate con leche y más carbón vegetal de la nariz. Final: Longitud media, con chocolate, pasas y carbón."
     },{
-        id: 19,
+        id: 20,
         brand: "The Glenrothers",
         name: "12 años",
         country: "Escocia",
@@ -280,7 +280,7 @@ const products = [
         destacado: true,
         desc: "Color ambarino intenso limpio y brillante con un olor Ligero a fragancia de plátano y vainilla. Dejando sabores a plátano, limón y melón con un toque de canela. Final largo y suave con notas de melón y ligeras especias."
     },{
-        id: 20,
+        id: 21,
         brand: "Chivas Regal",
         name: "12 años",
         country: "Escocia",
@@ -294,7 +294,7 @@ const products = [
         destacado: false,
         desc: "Chivas Regal cuenta con 12 años de añejamiento, triplemente mezclado de whiskies de malta y grano. Además de cuidado y paciencia, el proceso, que incluye tres fases de mezcla, hace que el Chivas Regal 12 años sea el whisky más suave del mundo. Una de las mezclas está dedicada a alcanzar el equilibrio perfecto del whisky de malta, y dirigida a alcanzar el equilibrio perfecto del whisky de trigo. En la fase final, las maltas y los trigos se mezclan para dar un resultado excepcional."
     },{
-        id: 21,
+        id: 22,
         brand: "The Glenrothers",
         name: "10 años",
         country: "Escocia",
@@ -308,7 +308,7 @@ const products = [
         destacado: false,
         desc: "The Glenrothes 10 Años es un whisky añejado solo en barricas de roble envinadas con jerez y embotellado con su color natural. Con un carácter de vainilla, masa quebrada y cáscara de limón. Un single malt delicado y de estilo más sutil. En boca es dulce, cáscara de limón y malta ligera."
     },{
-        id: 22,
+        id: 23,
         brand: "Jameson",
         name: "Black Barrel",
         country: "Irlanda",
@@ -322,7 +322,7 @@ const products = [
         destacado: false,
         desc: "Una versión especial de Jameson todavía con mucho whisky. Black Barrel tiene una gran cantidad de barriles de jerez y bourbon de primer llenado en la mezcla, lo que le da un sabor mucho más rico que el Jameson normal, con una fuerte nota de jerez."
     },{
-        id: 23,
+        id: 24,
         brand: "Jameson",
         name: "Caskmates IPA",
         country: "Irlanda",
@@ -336,7 +336,7 @@ const products = [
         destacado: false,
         desc: "Aroma con notas florales y cítricas de pomelo, toques sutiles de frutas de la huerta y un dejo herbal a lúpulo, este whiskey se complementa con virutas de madera y un suave aroma a nuez con sabor a lúpulo y cítricos suaves con notas de hierbas dulces y delicados tonos especiados. Acabado con La persistencia de la fruta fresca y el lúpulo dan paso a los granos de cebada y a su acabado suave y característico."
     },{
-        id: 24,
+        id: 25,
         brand: "Chivas Regal",
         name: "Royal Salute 21 años",
         country: "Escocia",
@@ -350,7 +350,7 @@ const products = [
         destacado: true,
         desc: "El Chivas Regal Salute 21 años viene en una elegante botella de porcelana de Wade. Es un whisky muy singular, que combina el caracter de algunos de las mejores maltas que se conservan en la destileria de Strathisla."
     },{
-        id: 25,
+        id: 26,
         brand: "Macallan",
         name: "Oscuro Edicion Limitada",
         country: "Escocia",

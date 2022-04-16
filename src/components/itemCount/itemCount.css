@@ -1,0 +1,30 @@
+.counterContainer{
+    display: flex;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.counter img{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.counter p {
+    margin: 0 15px 0 15px;
+}
+
+.addCart button{
+    background-color: #111;
+    height: 30px;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

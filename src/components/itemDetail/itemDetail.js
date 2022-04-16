@@ -14,7 +14,7 @@ const ItemDetails = ({id, brand, name, country, volume, price, img, category, st
 
     const onAdd = (count) => {
         setCantidad(count)
-        addItem({id, brand, name, price, stock}, count)
+        addItem({id, brand, name, price, stock, img}, count, price*count)
     }
 
 
@@ -23,7 +23,7 @@ const ItemDetails = ({id, brand, name, country, volume, price, img, category, st
     return (
 
         <div>
-            <div div className="detailContainer" >
+            <div className="detailContainer" >
                 <img src={img} alt="productImg" />
 
                 <div className="infoContainer">
@@ -39,7 +39,7 @@ const ItemDetails = ({id, brand, name, country, volume, price, img, category, st
                         <p className="disabled">categoria: {category}</p>
                         <p className="disabled">stock: {stock}</p>
                     </div>
-                    {cantidad === 0 ? <ItemCount onAdd={onAdd} stock={stock} /> : <Link to={"/cart"} className="goToCartButton">Ir al carrito</Link>}
+                    {cantidad === 0 ? <ItemCount onAdd={onAdd} stock={stock} /> : <Link to={"/cart"} className="goToCartButton">Terminar Compra</Link>}
                     <h2 className="price"> Precio: ${price}</h2>
                 </div>
             </div >

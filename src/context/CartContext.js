@@ -7,10 +7,9 @@ export const CartContextProvider = ({children}) => {
 
     const [cartLength, setCartLength] = useState(0)
 
-    console.log(cart)
 
 
-    const addItem = (product, quantity) => {
+    const addItem = (product, quantity, precioTotal) => {
 
         let repeatedProducts = cart.find(el=> el.id === product.id)
 
@@ -19,11 +18,12 @@ export const CartContextProvider = ({children}) => {
             repeatedProducts.quantity += quantity
             getCantidad()
         }else if (repeatedProducts && repeatedProducts.quantity + quantity > product.stock) {
-            console.log("Stock alcanzado")
+            alert("Stock alcanzado")
         } else{
             const objItemCart = {
                         ...product,
-                        quantity
+                        quantity,
+                        precioTotal
                     }
             setCart([...cart, objItemCart])
         
@@ -33,9 +33,15 @@ export const CartContextProvider = ({children}) => {
         
     }
 
-    // const clearCart = () => {
-    //     
-    // }
+    const clearCart = () => {
+        setCart([])
+    }
+
+    const removeItem = (idNumber) =>{
+        let index = cart.indexOf(cart.find(el => el.id === Number(idNumber)))
+        cart.splice(index, 1)
+        getCantidad()
+    }
 
     const getCantidad = () => {
         let cantidad = 0
@@ -46,8 +52,17 @@ export const CartContextProvider = ({children}) => {
         return cartLength
     }
 
+    const cartPrice = () =>{
+        let cartPriceValue = 0
+        cart.map(el => cartPriceValue+=el.precioTotal)
+
+        return cartPriceValue
+    }
+
+    
+
     return(
-        <Context.Provider value={{cart, setCart, addItem, getCantidad}}>
+        <Context.Provider value={{cart, setCart, addItem, getCantidad, removeItem, clearCart, cartPrice}}>
             {children}
         </Context.Provider>
     )

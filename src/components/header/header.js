@@ -1,9 +1,12 @@
 import './style.css'
 import logo from '../../assets/logo.png'
-import Cart from '../cart/cart'
-import  {Link } from "react-router-dom"
+import { Link } from "react-router-dom"
+import CartWidget from '../cartWidget/cartWidget'
+
 
 const Header = () => {
+
+    
 
     return (
         <div className="header">
@@ -24,7 +27,9 @@ const Header = () => {
                     <button>Login</button>
                     <button>Registrarse</button>
                 </div>
-                <Cart />
+                
+                <CartWidget />
+
                 <div className='searchBarInput'>
                     <input type='search' placeholder='Buscar...' />
                 </div>

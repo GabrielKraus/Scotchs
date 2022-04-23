@@ -2,6 +2,7 @@ import "./App.css"
 import Header from "./components/header/header";
 import ItemListContainer from "./components/itemListContainer/itemListContainer";
 import Inicio from "./components/inicio/inicio";
+import Login from "./components/Login/login";
 import Cart from "./components/cart/cart";
 import SobreNosotros from "./components/sobrenosotros/sobrenosotros";
 import Contacto from "./components/contacto/contacto";
@@ -21,6 +22,8 @@ function App() {
           <Header />
           <Routes>
             <Route path="" element={<Inicio />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/login/:id" element={null} />
             <Route path="/productos" element={<ItemListContainer />} />
             <Route path="/productos/item/:id" element={<ItemDetailContainer />} />
             <Route path="/productos/categoria/:category" element={<ItemListContainerCategory />} />

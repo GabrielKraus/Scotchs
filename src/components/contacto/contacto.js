@@ -10,7 +10,7 @@ const Contacto = () => {
             <div className="contactForm">
                 <form onSubmit={handleSubmit} className="FormItems">
 
-                    <label for="name" className="labelItem">Nombre: </label>
+                    <label htmlFor="name" className="labelItem">Nombre: </label>
                     <input type="text" placeholder="Su Nombre: " id="name" name="name" className="inputItem" />
                     <ValidationError
                         prefix="Name"
@@ -19,7 +19,7 @@ const Contacto = () => {
                     />
 
 
-                    <label for="email" className="labelItem" htmlFor="email">Correo : </label>
+                    <label className="labelItem" htmlFor="email">Correo : </label>
                     <input type="email" placeholder="Su Correo Electronico: " id="email" className="inputItem" name="email" />
 
                     <ValidationError
@@ -28,7 +28,7 @@ const Contacto = () => {
                         errors={state.errors}
                     />
 
-                    <label for="message" className="labelItem" >Mensaje: </label>
+                    <label htmlFor="message" className="labelItem" >Mensaje: </label>
                     <textarea placeholder="Su Mensaje: " id="message" className="inputItem" name="message" />
                     <ValidationError
                         prefix="Message"
@@ -36,7 +36,7 @@ const Contacto = () => {
                         errors={state.errors}
                     />
 
-                    <button id="submitButton" type="submit" disabled={state.submitting}>Submit</button>
+                    <button id="submitButton" type="submit" disabled={state.submitting}>Enviar</button>
                 </form>
 
             </div>

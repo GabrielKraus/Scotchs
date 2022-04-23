@@ -18,7 +18,7 @@ const ItemDetails = ({id, brand, name, country, volume, price, img, category, st
     }
 
 
-
+    
 
     return (
 

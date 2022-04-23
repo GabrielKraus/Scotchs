@@ -122,4 +122,59 @@
     padding: 5px;
     border: solid 1px #111;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.orderForm{
+    max-width: 250px;
+    position: absolute;
+    right: 50%;
+    top: 30%;
+    z-index: 100000;
+    color: rgb(221, 255, 0);
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.527)),
+    url("https://cf.ltkcdn.net/antiques/images/orig/226165-2121x1414-Antique-cash-register.jpg");
+    font-family: 'Caveat', cursive;
+    background-size: cover;
+    
+    padding: 50px 100px 50px 100px;
+    border-radius: 30px;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.finalizarCompraBtn{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    cursor: pointer;
+}
+
+
+
+.adress{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderFormItem{
+    border: none;
+    border-bottom: 1px solid rgb(221, 255, 0);
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 10px;
+    color: #fff;
+}
+
+.orderFormQuit{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
 }

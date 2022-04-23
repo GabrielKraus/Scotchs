@@ -24,8 +24,7 @@ const Header = () => {
             </div>
             <div className="headerSearchBar">
                 <div className='searchBarButton'>
-                    <button>Login</button>
-                    <button>Registrarse</button>
+                    <Link className='login' to='/login'>Login</Link>
                 </div>
                 
                 <CartWidget />

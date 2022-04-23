@@ -56,13 +56,11 @@
     padding-left: 60px;
     
 }
-.searchBarButton button{
-    cursor: pointer;
-    padding: 5px;
-    margin-left: 20px;
-    border: none;
-    border-radius: 10px;
-    height: 25px;
+.searchBarButton .login{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #111;
+    color: #fff
 }
 
 .carrito{

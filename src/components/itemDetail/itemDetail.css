@@ -1,6 +1,7 @@
 .detailContainer{
     padding: 50px;
     display: flex;
+    height: 100vh;
 }
 .detailContainer img{
     width: 400px;
@@ -10,14 +11,22 @@
     margin-left: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
+
 .name {
     font-size: 40px;
+    margin-bottom: 40px;
+}
+.descContainer{
+    margin-bottom: 40px;
+}
+.altInfo{
+    margin-bottom: 40px;
 }
 .name span{
     font-weight: lighter;
 }
+
 
 .price{
     display: flex;

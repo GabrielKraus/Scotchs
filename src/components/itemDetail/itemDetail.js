@@ -22,7 +22,6 @@ const ItemDetails = ({id, brand, name, country, volume, price, img, category, st
 
     return (
 
-        <div>
             <div className="detailContainer" >
                 <img src={img} alt="productImg" />
 
@@ -43,7 +42,6 @@ const ItemDetails = ({id, brand, name, country, volume, price, img, category, st
                     <h2 className="price"> Precio: ${price}</h2>
                 </div>
             </div >
-        </div>
 
 
 

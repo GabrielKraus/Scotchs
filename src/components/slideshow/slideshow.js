@@ -1,19 +1,24 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { getProductoDestacado } from "../../asyncmock"
 import { Link } from "react-router-dom"
 import "./slideShow.css"
 import Right from "../../assets/right.png"
 import Left from "../../assets/left.png"
 
+import { getDocs, collection, query, where } from "firebase/firestore"
+import { firestoreDb } from "../../services/firebase"
 
 
 
 const SlideShow = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        getProductoDestacado().then(response => {
-            setProducts(response)
+        const collectionRef = query(collection(firestoreDb, 'products'), where('destacado', '==', true))
+        getDocs(collectionRef).then(querySnapshot => {
+            const products = querySnapshot.docs.map(doc =>{
+                return {id: doc.id, ...doc.data()}
+            })
+            setProducts(products)
         })
     }, [])
 

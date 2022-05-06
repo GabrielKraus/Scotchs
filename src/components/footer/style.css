@@ -1,0 +1,29 @@
+.footerBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBar .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #111;
+}
+
+.footerBar .logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.footerBarLogin{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.login{
+    text-decoration: none;
+    color: #111;
+}

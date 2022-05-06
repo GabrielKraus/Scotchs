@@ -15,23 +15,14 @@ const Header = () => {
                     <img src={logo} alt='logo' />
                     <h1>Scotch's</h1>
                 </Link>
+
+                <CartWidget />
+
                 <div className='menuBar'>
                     <Link className='link' to='/'>Inicio</Link>
                     <Link className='link' to='/productos'>Productos</Link>
                     <Link className='link' to='/sobrenosotros'>Nosotros</Link>
                     <Link className='link' to='/contacto'>Contacto</Link>
-                </div>
-            </div>
-            <div className="headerSearchBar">
-                <div className='searchBarButton'>
-                    <button>Login</button>
-                    <button>Registrarse</button>
-                </div>
-                
-                <CartWidget />
-
-                <div className='searchBarInput'>
-                    <input type='search' placeholder='Buscar...' />
                 </div>
             </div>
         </div>

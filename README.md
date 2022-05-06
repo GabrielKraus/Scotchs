@@ -21,7 +21,7 @@ En el navbar se puede encontrar las principales rutas de la pagina
         
         
         
-##Al final, hay un footer, alli se encuentra el logo y el brand, donde tambien se puede ir al inicio. A la derecha hay un boton de login para administradores (usuario: admin y contrasena: nimda123) alli se pueden agregar productos para mostrar en el catalogo, sin necesidad de ir directo a firebase y agregarlos a mano. Luego de agregar el producto, use una libreria para mostrar una confirmacion a la derecha superior, llamada toastify.
+Al final, hay un footer, alli se encuentra el logo y el brand, donde tambien se puede ir al inicio. A la derecha hay un boton de login para administradores (usuario: admin y contrasena: nimda123) alli se pueden agregar productos para mostrar en el catalogo, sin necesidad de ir directo a firebase y agregarlos a mano. Luego de agregar el producto, use una libreria para mostrar una confirmacion a la derecha superior, llamada toastify.
    
    
 gif: https://media.giphy.com/media/wM3jD9A11VtV7YEFJc/giphy.gif

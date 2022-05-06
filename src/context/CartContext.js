@@ -38,7 +38,7 @@ export const CartContextProvider = ({children}) => {
     }
 
     const removeItem = (idNumber) =>{
-        let index = cart.indexOf(cart.find(el => el.id === Number(idNumber)))
+        let index = cart.indexOf(cart.find(el => el.id === idNumber))
         cart.splice(index, 1)
         getCantidad()
     }

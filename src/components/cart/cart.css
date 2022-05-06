@@ -128,7 +128,6 @@
 .orderForm{
     max-width: 250px;
     position: absolute;
-    right: 50%;
     top: 30%;
     z-index: 100000;
     color: rgb(221, 255, 0);
@@ -138,13 +137,18 @@
     font-family: 'Caveat', cursive;
     background-size: cover;
     
-    padding: 50px 100px 50px 100px;
+    padding: 50px 50px 50px 50px;
     border-radius: 30px;
+
+    left: 50%;
+    margin-left: -175px;
 }
 
 .formContainer{
     display: flex;
     flex-direction: column;
+    width: max-content;
+    font-size: 1.5rem;
 }
 
 .finalizarCompraBtn{
@@ -168,6 +172,7 @@
     background-color: rgba(255, 255, 255, 0);
     margin-left: 10px;
     color: #fff;
+    width: 250px;
 }
 
 .orderFormQuit{

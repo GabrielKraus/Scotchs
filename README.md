@@ -1,5 +1,7 @@
 # Scotchs
 ##En el navbar se puede encontrar las principales rutas de la pagina
+
+
   *Haciendo click el apartado de inicio, en el brand name o en el logo, estaramos llendo a la parte principal. Como su nombre lo indica, el inicio.
       **En el Inicio podemos encontrar un apartado que nos lleva a ver todos los productos. Abajo encontramos 2 apartados mas que nos llevaran a los productos filtrados por Bebidas o Tabacos dependiendo el interes del cliente. Por ultimo tenemos un apartado de productos destacados, los productos que se muestran aca tienen que tener como valor true en la llave de destacado en firebase, el boton de Ver Detalles que alli se encuentra, tiene el mismo funcionamiento que en el catalogo.
   *En el apartado de Productos (/productos), nos mustra todos los productos que estamos recibiendo desde firebase.
